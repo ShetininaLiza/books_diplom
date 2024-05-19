@@ -1,34 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Liza\\source\\repos\\diplom\\",
+  "WorkspaceRootPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\source\\repos\\diplom\\books\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\views\\admin\\adminbooklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\views\\admin\\adminbooklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\source\\repos\\diplom\\books\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\source\\repos\\diplom\\books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\database\\logic\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\logic\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\database_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\database_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\views\\user\\enter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\views\\user\\enter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\source\\repos\\diplom\\books\\books.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\books.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\books\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|c:\\users\\liza\\source\\repos\\diplom\\books\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15234E21-0F08-4479-BB01-D11FC66577B7}|books\\books.csproj|solutionrelative:books\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7779691E-6B5C-4397-95C9-B85A4DBD62C5}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\businesslogic\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7779691E-6B5C-4397-95C9-B85A4DBD62C5}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\source\\repos\\diplom\\database\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|c:\\users\\liza\\source\\repos\\diplom\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972A4F91-E8AB-4241-8837-38B7B74BD779}|database\\Database.csproj|solutionrelative:database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7779691E-6B5C-4397-95C9-B85A4DBD62C5}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\liza\\documents\\github\\books_diplom\\diplom\\businesslogic\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7779691E-6B5C-4397-95C9-B85A4DBD62C5}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +70,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "books\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "books\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:46:00.475Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "books\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\UserController.cs",
+              "RelativeToolTip": "books\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwEoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T09:44:59.274Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Logic\\UserLogic.cs",
+              "RelativeDocumentMoniker": "database\\Logic\\UserLogic.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Logic\\UserLogic.cs",
+              "RelativeToolTip": "database\\Logic\\UserLogic.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwDIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:56:38.866Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "database\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\ApplicationContext.cs",
+              "RelativeToolTip": "database\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:03:42.76Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "books\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "books\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T13:15:11.528Z"
+              "DocumentIndex": 0,
+              "Title": "AdminBookList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\Admin\\AdminBookList.cshtml",
+              "RelativeDocumentMoniker": "books\\Views\\Admin\\AdminBookList.cshtml",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\Admin\\AdminBookList.cshtml",
+              "RelativeToolTip": "books\\Views\\Admin\\AdminBookList.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T11:37:43.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "books\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "books\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-15T17:02:21.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "books\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "books\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:48:31.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "books.csproj",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\books.csproj",
-              "RelativeDocumentMoniker": "books\\books.csproj",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\books.csproj",
-              "RelativeToolTip": "books\\books.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-16T05:46:39.223Z"
+              "DocumentIndex": 6,
+              "Title": "MydbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\MydbContext.cs",
+              "RelativeDocumentMoniker": "database\\MydbContext.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\MydbContext.cs",
+              "RelativeToolTip": "database\\MydbContext.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAswKsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T12:33:48.211Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\Book.cs",
-              "RelativeDocumentMoniker": "database\\Book.cs",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\Book.cs",
-              "RelativeToolTip": "database\\Book.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAAgAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\User.cs",
+              "RelativeDocumentMoniker": "database\\User.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\User.cs",
+              "RelativeToolTip": "database\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T17:09:41.461Z"
+              "WhenOpened": "2024-05-18T11:28:54.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MydbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\MydbContext.cs",
-              "RelativeDocumentMoniker": "database\\MydbContext.cs",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\MydbContext.cs",
-              "RelativeToolTip": "database\\MydbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "books\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "books\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:48:22.22Z"
+              "WhenOpened": "2024-05-18T11:23:29.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "Database_.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Database_.cs",
+              "RelativeDocumentMoniker": "books\\Database_.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Database_.cs",
+              "RelativeToolTip": "books\\Database_.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:49:05.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Program.cs",
               "RelativeDocumentMoniker": "books\\Program.cs",
-              "ToolTip": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\Program.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Program.cs",
               "RelativeToolTip": "books\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T06:34:52.447Z"
+              "WhenOpened": "2024-05-18T08:11:48.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\Models\\User.cs",
+              "RelativeToolTip": "BusinessLogic\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:07:56.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\Models\\Role.cs",
+              "RelativeToolTip": "BusinessLogic\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:01:42.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "books\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "books\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T07:44:57.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enter.cshtml",
+              "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\User\\Enter.cshtml",
+              "RelativeDocumentMoniker": "books\\Views\\User\\Enter.cshtml",
+              "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\Views\\User\\Enter.cshtml",
+              "RelativeToolTip": "books\\Views\\User\\Enter.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T07:43:13.19Z"
             }
           ]
         }

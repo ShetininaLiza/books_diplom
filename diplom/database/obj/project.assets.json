@@ -721,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\database.csproj",
-      "projectName": "database",
-      "projectPath": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\database.csproj",
+      "projectUniqueName": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Database.csproj",
+      "projectName": "Database",
+      "projectPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Database.csproj",
       "packagesPath": "C:\\Users\\Liza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\obj\\",
+      "outputPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,11 @@
+using System.Data;
+using System.Configuration;
+using System.Data.SqlTypes;
+using books;
+
+
 var builder = WebApplication.CreateBuilder(args);
-
-
+Database_.OpenDatabase();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

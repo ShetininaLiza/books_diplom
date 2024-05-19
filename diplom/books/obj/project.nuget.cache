@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "epoL552ot+7a7Jy/Ew1oEuKbqcMv6vAMVkNU76AlthN/ColMAhU9Op3J5rhrtqlRTJGiR5ZcJFEOKBSmROITSg==",
+  "dgSpecHash": "yXWX0htaMHV3TuaweWNqkJ4lepIIuGdhHBqVr6OoeWXV4f3JAyI9uBpkm9x1KjHnW47PqlTLFUQIN2xmINd7ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\books.csproj",
+  "projectFilePath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\books.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Liza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Liza\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

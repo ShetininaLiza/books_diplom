@@ -168,7 +168,6 @@ public partial class MydbContext : DbContext
             entity.Property(e => e.Email).HasColumnName("email");
             entity.Property(e => e.IsAdmin).HasColumnName("isAdmin");
             entity.Property(e => e.Login).HasColumnName("login");
-            entity.Property(e => e.Name).HasColumnName("name");
             entity.Property(e => e.Password).HasColumnName("password");
             entity.Property(e => e.PhoneNumber)
                 .HasMaxLength(12)

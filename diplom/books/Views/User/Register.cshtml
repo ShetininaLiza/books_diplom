@@ -1,0 +1,110 @@
+﻿@model string[]
+@{
+    ViewData["Title"] = "Регистрация пользователя";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" href="~/icons-autor-32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="~/icons-autor-32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width" />
+    <title>Регистрация</title>
+</head>
+<body>
+    <script>
+        function send() {
+            var login = document.getElementById("Login").value;
+            var email = document.getElementById("Email").value;
+            var pas = document.getElementById("Pass").value;
+            var tel = document.getElementById("Tel").value;
+            $.post("/User/Register",
+                {
+                    Login:login,
+                    Email:email,
+                    Pass:pas,
+                    Tel:tel
+                },
+                function (data) {
+                    Swal.fire(
+                        'Готово!',
+                        'Вы успешно зарегистрировались!',
+                        'success'
+                    );
+                    return true;
+                });
+            /*
+            перед Url был знак собаки
+            $(this).load('Url.Action("Register", "User")');
+            Swal.fire(
+                'Готово!',
+                'Вы успешно зарегистрировались!',
+                'success'
+            );
+            */
+        }
+    </script>
+    <div>
+        @if (Model.Length != 0)
+        {
+            <div id="Mess" class="alert alert-primary" role="alert">
+                <strong>@Model.ElementAt(0)</strong>@Model.ElementAt(1)
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        }
+        <h1 style="text-align: center">Регистрация</h1>
+
+        <form method="post" class="row g-3 needs-validation">
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Логин</label>
+                <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="Login" aria-describedby="inputGroupPrepend" name="Login" required>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">Пароль</label>
+                <input type="password" class="form-control" id="Pass" required
+                       pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9])\S{8,}"
+                       title="Пароль должен содержать от 8 символов (английские строчные, заглавные, цифры и спец символы)"
+                       name="Pass">
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Почта</label>
+                <div class="input-group has-validation">
+                    <input type="email" class="form-control" id="Email"
+                           aria-describedby="inputGroupPrepend" placeholder="name@gmail.com" required
+                           name="Email">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">Номер телефона</label>
+                <input type="tel" class="form-control" id="Tel" required
+                       pattern="89\d{9}" title="Формат телефона 89........." name="Tel">
+                <div class="invalid-feedback">
+                    Введите номер телефона.
+                </div>
+            </div>
+
+            <div class="col-12" style="text-align:center">
+                <!--asp-controller="User" asp-action="Register"-->
+                <!--
+            <button class="btn btn-primary" type="submit" onclick="send();">Регистрация</button>
+                -->
+
+                <button id="buttonRegister" class="btn btn-primary" type="submit" asp-controller="User" asp-action="Register">Регистрация</button>
+
+                <br />
+                <a id="LinkEnter" href="Enter">Вход</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
+

@@ -876,6 +876,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        }
+      },
       "Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2306,6 +2316,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic/BusinessLogic.csproj",
+      "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
+    },
     "Database/1.0.0": {
       "type": "project",
       "path": "../database/Database.csproj",
@@ -2314,6 +2329,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BusinessLogic >= 1.0.0",
       "Database >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2"
@@ -2326,11 +2342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\books.csproj",
+      "projectUniqueName": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\books.csproj",
       "projectName": "books",
-      "projectPath": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\books.csproj",
+      "projectPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\books.csproj",
       "packagesPath": "C:\\Users\\Liza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Liza\\source\\repos\\diplom\\books\\obj\\",
+      "outputPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\books\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2352,8 +2368,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Liza\\source\\repos\\diplom\\database\\Database.csproj": {
-              "projectPath": "C:\\Users\\Liza\\source\\repos\\diplom\\database\\Database.csproj"
+            "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\BusinessLogic\\BusinessLogic.csproj"
+            },
+            "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Database.csproj": {
+              "projectPath": "C:\\Users\\Liza\\Documents\\GitHub\\books_diplom\\diplom\\database\\Database.csproj"
             }
           }
         }
