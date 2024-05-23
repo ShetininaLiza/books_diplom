@@ -1,0 +1,82 @@
+<html>
+        <head>
+            <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> 
+            <title>Редактирование книги</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script>
+                function removeRow(that){
+                    <!--Swal.fire("Remove Row");-->
+                    that.parentNode.parentNode.remove();
+                }
+                
+                function addRow(){
+                    <!--Swal.fire("Надо добавить строку для добавления Автора");-->
+                    var table = document.getElementById('autors'),
+                        tbody = table.getElementsByTagName("tbody")[0];
+                    var row = document.createElement("tr");
+                    var cell1 = document.createElement("td");
+                    var cell2 = document.createElement("td");
+                    cell1.innerHTML = "<input type='text' />";
+                    cell2.innerHTML = "<button class='btn btn-primary' onclick='removeRow(this)' >-</button>";
+                    row.appendChild(cell1);
+                    row.appendChild(cell2);
+                    tbody.appendChild(row);
+                }
+            </script>
+        </head>
+        <body>
+            <h1 align="center">Редактирование данных книги</h1>
+            <div class="row mb-3">
+                <input type="text" class="form-control" placeholder="Название книги" aria-label="Название книги">
+                <span class="input-group-text"></span>
+                <input type="text" class="form-control" placeholder="Год издания" aria-label="Год издания">
+                <span class="input-group-text"></span>
+                <label for="formFile" class="form-label">Изображение:</label>
+                <input class="form-control" type="file" id="formFile">
+                <span class="input-group-text"></span>
+                <h9>Аннотация:</h9>
+                <textarea class="form-control" row="3"></textarea>
+                <span class="input-group-text"></span>
+                
+                <h9>Жанры книги:</h9>
+                <!-- form-check-inline-->
+                <div>
+                    <div class="form-check form-check-inline">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Роман</label>
+                     </div>
+                     <div class="form-check form-check-inline">   
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Фэнтези</label>
+                        </div>
+                        <div class="form-check form-check-inline">   
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Фантастика</label>
+                        </div>
+                </div>
+                <div>
+                <h9>Автор(ы):</h9>
+                <button class="btn btn-primary rounded-pill px-3" onclick="addRow()">+</button>
+                </div>
+                
+                <table id="autors" class="table table-primary">
+                <thead>
+                <tr>
+                    <th>ФИО автора</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+                </table>
+           </div>
+           
+           <div align="center">
+               <a href="books.html">
+                   <button class="btn btn-primary">Назад</button>        
+               </a>
+           <button class="btn btn-primary" onclick="save()">Сохранить</button>
+           </div>
+        </body>
+</html>
